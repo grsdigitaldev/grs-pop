@@ -1,0 +1,3091 @@
+# Copyright (C) 2026 GRS Digital
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: GRS Pop 1.3.0\n"
+"Report-Msgid-Bugs-To: info@grsdigital.it\n"
+"POT-Creation-Date: 2026-11-20T16:52:24+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GRS Digital <info@grsdigital.it>\n"
+"Language-Team: GRS Digital\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: grs-pop\n"
+"X-Generator: WP-CLI 2.12.0\n"
+
+#. Plugin Name of the plugin
+#: grs-pop.php
+msgid "GRS Pop"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: grs-pop.php
+msgid "https://grsdigital.it"
+msgstr ""
+
+#. Description of the plugin
+#: grs-pop.php
+msgid ""
+"Lightweight popups, slide-ins, bars, welcome mats, inline boxes and floating"
+" tabs with ready-made presets, smart triggers, targeting and mobile-first "
+"display rules."
+msgstr ""
+
+#. Author of the plugin
+#: grs-pop.php
+msgid "GRS Digital"
+msgstr ""
+
+#: includes/admin/class-admin.php:89 includes/admin/class-admin.php:502
+msgid "Popups, slide-ins, bars, welcome mats, inline boxes and floating tabs."
+msgstr ""
+
+#: includes/admin/class-admin.php:162 includes/admin/class-admin.php:186
+#: includes/class-post-type.php:39
+msgid "Popups"
+msgstr ""
+
+#: includes/admin/class-admin.php:188
+#: includes/admin/class-settings-page.php:52
+msgid "Statistics"
+msgstr ""
+
+#: includes/admin/class-admin.php:191
+#: includes/admin/class-maintenance-page.php:64
+#: includes/admin/class-maintenance-page.php:190
+#: includes/admin/class-maintenance-page.php:210
+#: includes/class-maintenance.php:732
+msgid "Coming soon"
+msgstr ""
+
+#: includes/admin/class-admin.php:192 assets/js/builder.js:3
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-admin.php:265 includes/admin/class-admin.php:326
+#: includes/admin/class-maintenance-page.php:26
+#: includes/admin/class-maintenance-page.php:110
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: includes/admin/class-admin.php:270 includes/class-rest.php:210
+#: includes/class-rest.php:249
+msgid "Popup not found."
+msgstr ""
+
+#. translators: %s: popup name.
+#: includes/admin/class-admin.php:289
+#, php-format
+msgid "%s (copy)"
+msgstr ""
+
+#: includes/admin/class-admin.php:487
+msgid "You are not allowed to access this page."
+msgstr ""
+
+#: includes/admin/class-admin.php:493
+msgid "Loading the editor…"
+msgstr ""
+
+#: includes/admin/class-admin.php:494
+msgid "The editor requires JavaScript."
+msgstr ""
+
+#: includes/admin/class-admin.php:500
+#: includes/admin/class-popups-table.php:306
+#: includes/admin/class-settings-page.php:101 assets/js/builder.js:3
+msgid "Active"
+msgstr ""
+
+#: includes/admin/class-admin.php:507
+msgid "Sections"
+msgstr ""
+
+#. translators: %d: number of popups.
+#: includes/admin/class-admin.php:551
+#, php-format
+msgid "%d popup activated."
+msgid_plural "%d popups activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of popups.
+#: includes/admin/class-admin.php:553
+#, php-format
+msgid "%d popup deactivated."
+msgid_plural "%d popups deactivated."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of popups.
+#: includes/admin/class-admin.php:555
+#, php-format
+msgid "%d popup deleted."
+msgid_plural "%d popups deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin.php:556
+msgid "Popup duplicated as an inactive copy."
+msgstr ""
+
+#: includes/admin/class-admin.php:557
+msgid "Statistics reset."
+msgstr ""
+
+#: includes/admin/class-admin.php:558
+msgid "New secret link created: the previous one no longer works."
+msgstr ""
+
+#. translators: %s: template name.
+#: includes/admin/class-admin.php:569
+#, php-format
+msgid ""
+"Template \"%s\" applied and saved: visitors already see the new page. Check "
+"the texts and the date in the preview."
+msgstr ""
+
+#. translators: %s: template name.
+#: includes/admin/class-admin.php:572
+#, php-format
+msgid ""
+"Template \"%s\" applied: check the texts and the date in the preview, then "
+"choose the Maintenance mode and save."
+msgstr ""
+
+#. translators: %s: template name.
+#: includes/admin/class-admin.php:575
+#, php-format
+msgid ""
+"Template \"%s\" applied: check the texts and the date in the preview, then "
+"choose the Coming soon mode and save."
+msgstr ""
+
+#: includes/admin/class-admin.php:595
+msgid "Your popups"
+msgstr ""
+
+#: includes/admin/class-admin.php:596
+msgid "Create popup"
+msgstr ""
+
+#: includes/admin/class-admin.php:599 includes/admin/class-stats-page.php:119
+msgid "No popups yet."
+msgstr ""
+
+#: includes/admin/class-admin.php:600
+msgid ""
+"Start from one of the ready-made templates: newsletter, discount, bar, "
+"slide-in, welcome mat and more. You can customize everything afterwards."
+msgstr ""
+
+#: includes/admin/class-admin.php:601 assets/js/builder.js:1
+msgid "Choose a template"
+msgstr ""
+
+#: includes/admin/class-admin.php:605
+msgid "Search popups"
+msgstr ""
+
+#: includes/admin/class-admin.php:620
+msgid "How to use"
+msgstr ""
+
+#. translators: 1: example link markup, 2: example CSS class.
+#: includes/admin/class-admin.php:624
+#, php-format
+msgid ""
+"Open a popup from any link or button: use the address %1$s or the CSS class "
+"%2$s (replace 12 with the popup ID)."
+msgstr ""
+
+#. translators: 1: shortcode for inline boxes, 2: shortcode for links.
+#: includes/admin/class-admin.php:633
+#, php-format
+msgid ""
+"Inline boxes: shortcode %1$s or the \"GRS Pop inline\" block. Link that "
+"opens a popup anywhere: %2$s."
+msgstr ""
+
+#: includes/admin/class-admin.php:635 includes/class-renderer.php:178
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Open"
+msgstr ""
+
+#: includes/admin/class-admin.php:639
+msgid ""
+"Forms inside popups come from GRS Forms: leads, anti-spam and conversion "
+"tracking work as usual."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:45
+msgid "Coming soon with launch"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:46
+msgid ""
+"Countdown to the opening date, the site opens by itself when the time comes."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:50
+msgid "We are about to launch"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:51
+msgid ""
+"We are putting the finishing touches to our new website. The countdown shows"
+" when we open."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:53
+msgid "We open in"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:59
+msgid "Minimal coming soon"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:60
+msgid "Logo, one sentence and contacts, without countdown."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:65
+msgid ""
+"Our new website is on its way. In the meantime, you can contact us here."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:73
+msgid "Short maintenance"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:74
+msgid ""
+"Background in the brand colour and contacts for anything urgent, without "
+"countdown."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:78
+msgid "We will be back shortly"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:79
+msgid ""
+"We are carrying out some maintenance on the site. For anything urgent you "
+"can call or write to us."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:87
+#: includes/admin/class-maintenance-page.php:92
+msgid "Scheduled maintenance"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:88
+msgid ""
+"End date of the works (also sent to Google as Retry-After), countdown and "
+"contacts for emergencies."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:93
+msgid ""
+"The site is temporarily offline for scheduled work and will be back online "
+"at the time shown below. For emergencies you can contact us."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:95
+msgid "Back online in"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:159
+#: includes/admin/class-settings-page.php:26
+msgid "You are not allowed to change the settings."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:169
+msgid ""
+"Maintenance mode is active: visitors see the courtesy page with status 503."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:169
+msgid ""
+"Coming soon mode is active: visitors see the courtesy page and search "
+"engines are asked not to index the site."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:172
+msgid ""
+"The launch date has passed and the mode switched off automatically: the site"
+" is public."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:186
+msgid "Start from a template"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:187
+msgid ""
+"A template replaces title, text, style and countdown settings. Mode, logo, "
+"contacts, form and secret link stay as they are."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:191
+#: includes/admin/class-maintenance-page.php:211
+msgid "Maintenance"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:194
+msgid ""
+"Apply this template? Title, text, style and countdown settings will be "
+"replaced, and unsaved changes on this page will be lost."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:206
+msgid "Mode"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:209
+msgid "Off"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:209
+msgid "The site is public."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:210
+msgid ""
+"For a site not launched yet: courtesy page with status 200 and \"noindex\"."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:211
+msgid ""
+"For a site already online: status 503 with \"Retry-After\", so search "
+"engines come back later without losing rankings."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:217
+msgid ""
+"Login, dashboard, REST API, cron and robots.txt always remain reachable. The"
+" page cache is cleared at every save."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:221
+msgid "Who sees the real site"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:222 assets/js/builder.js:3
+msgid "Logged-in users"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:229
+msgid "Administrators always see the site."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:231
+msgid "Secret preview link"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:233
+msgid "Copied"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:233
+#: includes/class-renderer.php:349 assets/js/builder.js:1
+msgid "Copy"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:234
+msgid "Generate a new link"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:235
+msgid ""
+"Send it to a client who is not logged in: opening it shows the real site in "
+"that browser. A new link makes the old one stop working."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:236
+msgid "The link stays valid in the browser for (days)"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:240
+msgid "Page content"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:241
+msgid ""
+"Colours come from the palette in Settings. Texts are translatable with WPML "
+"or Polylang (context \"GRS Pop\")."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:244
+msgid "Logo"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:246
+msgid "Site logo (from the theme)"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:247
+msgid "Another image"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:248
+msgid "No logo"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:254
+msgid "Choose the logo"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:254 assets/js/builder.js:1
+msgid "Use this image"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:257
+msgid "Choose image"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:258 assets/js/builder.js:1
+#: assets/js/builder.js:3
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:261
+msgid "The theme has no logo set: the site name is shown instead."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:263
+msgid "Logo width (px)"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:266 assets/js/builder.js:1
+msgid "Style"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:267
+msgid "Light background, card in the brand colour"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:268
+msgid "Background in the brand colour"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:271 assets/js/builder.js:1
+#: assets/js/builder.js:3
+msgid "Title"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:271
+msgid ""
+"Empty = \"Coming soon\" or \"We are working on the site\", in the visitor's "
+"language."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:272 assets/js/builder.js:1
+#: assets/js/builder.js:3
+msgid "Text"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:272
+msgid "You can use <strong>, <em> and links. Empty = a standard text."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:276
+msgid "Contacts"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:277 assets/js/builder.js:1
+msgid "Email"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:278 assets/js/builder.js:1
+msgid "Phone"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:279
+msgid "WhatsApp number"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:279
+msgid "International format, digits only (e.g. 393331234567)."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:280
+msgid "Address"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:281
+#: includes/class-maintenance.php:798
+msgid "Social profiles"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:288
+msgid "Launch countdown"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:289 assets/js/builder.js:1
+msgid "Countdown"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:289
+msgid "Show a countdown to the launch date"
+msgstr ""
+
+#. translators: %s: time zone name.
+#: includes/admin/class-maintenance-page.php:291
+#, php-format
+msgid "Site time zone (%s)."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:292
+msgid "Launch date and time"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:293
+msgid "Text above the countdown"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:293
+msgid "For example \"We open in\"."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:294
+msgid "At the launch date"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:294
+msgid "Switch the mode off automatically and open the site"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:294
+msgid ""
+"Visitors with the page open see the site as soon as the countdown ends. In "
+"maintenance mode the date is also sent to search engines as \"Retry-After\"."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:298 assets/js/builder.js:1
+msgid "Form"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:300
+msgid ""
+"Install and activate GRS Forms to add a form to the page (for example "
+"\"notify me when we launch\")."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:304
+msgid "GRS Forms form"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:304
+msgid "No form"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:310 assets/js/builder.js:1
+#: assets/js/builder.js:3
+msgid "inactive"
+msgstr ""
+
+#. translators: %d: form ID.
+#: includes/admin/class-maintenance-page.php:316 assets/js/builder.js:3
+#, php-format, js-format
+msgid "Form #%d"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:320 assets/js/builder.js:1
+#: assets/js/builder.js:3
+msgid ""
+"The list of forms could not be loaded from GRS Forms. Update GRS Forms or "
+"reload the page."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:322
+msgid "Leads, anti-spam and notifications are handled by GRS Forms."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:326 assets/js/builder.js:3
+msgid "Save"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:330
+#: includes/admin/class-maintenance-page.php:333 assets/js/builder.js:3
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:331
+msgid "The page as visitors will see it, with the saved settings."
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:332
+#: includes/admin/class-popups-table.php:201
+#: includes/admin/class-stats-page.php:233 assets/js/builder.js:1
+msgid "Desktop"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:332
+#: includes/admin/class-popups-table.php:203
+#: includes/admin/class-stats-page.php:235 assets/js/builder.js:1
+msgid "Mobile"
+msgstr ""
+
+#: includes/admin/class-maintenance-page.php:332 assets/js/builder.js:1
+msgid "Open in a new tab"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:62
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:63 assets/js/builder.js:1
+#: assets/js/builder.js:3
+msgid "Format"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:64
+msgid "When"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:65
+msgid "Last 30 days"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:66
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:88
+#: includes/admin/class-popups-table.php:180
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:89
+#: includes/admin/class-popups-table.php:180
+msgid "Deactivate"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:90
+msgid "Delete permanently"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:134
+msgid "No popups found."
+msgstr ""
+
+#: includes/admin/class-popups-table.php:178
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:179 assets/js/builder.js:3
+msgid "Preview on site"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:181 assets/js/builder.js:3
+msgid "Duplicate"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:182
+msgid "Delete this popup and its statistics permanently?"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:182 assets/js/builder.js:3
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:184
+msgid "(no name)"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:197 assets/js/builder.js:1
+msgid "Inline"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:202
+#: includes/admin/class-stats-page.php:234 assets/js/builder.js:1
+msgid "Tablet"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:208 assets/js/builder.js:3
+msgid "off"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:221
+#: includes/admin/class-stats-page.php:123 includes/class-post-type.php:40
+#: includes/class-renderer.php:147 assets/js/builder.js:1
+msgid "Popup"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:222 assets/js/builder.js:1
+msgid "Slide-in"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:223 assets/js/builder.js:1
+msgid "Bar"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:224 assets/js/builder.js:1
+msgid "Full screen"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:225 assets/js/builder.js:1
+msgid "Floating tab"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:239
+msgid "Shortcode or block"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:240 assets/js/builder.js:3
+msgid "Before the content"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:241 assets/js/builder.js:3
+msgid "After the content"
+msgstr ""
+
+#. translators: %d: paragraph number.
+#: includes/admin/class-popups-table.php:243
+#, php-format
+msgid "After paragraph %d"
+msgstr ""
+
+#. translators: %d: seconds.
+#: includes/admin/class-popups-table.php:251
+msgid "On page load"
+msgstr ""
+
+#. translators: %d: seconds.
+#: includes/admin/class-popups-table.php:251
+#, php-format
+msgid "After %d s"
+msgstr ""
+
+#. translators: %d: scroll percentage.
+#: includes/admin/class-popups-table.php:255
+#, php-format
+msgid "Scroll %d%%"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:258
+msgid "Exit intent"
+msgstr ""
+
+#. translators: %d: seconds.
+#: includes/admin/class-popups-table.php:262
+#, php-format
+msgid "Inactive %d s"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:265
+msgid "Element visible"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:268
+msgid "Only on click"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:285
+msgid "No views yet"
+msgstr ""
+
+#. translators: 1: views, 2: conversions, 3: conversion rate.
+#: includes/admin/class-popups-table.php:291
+#, php-format
+msgid "%1$s views · %2$s conversions · %3$s%%"
+msgstr ""
+
+#: includes/admin/class-popups-table.php:308
+#: includes/admin/class-stats-page.php:155 assets/js/builder.js:3
+msgid "Inactive"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:35
+msgid "Colour palette"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:36
+msgid ""
+"The templates use these colours: set your brand colours once and every popup"
+" that uses the palette will follow them."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:44
+msgid "Devices and display"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:45
+msgid "Mobile up to (px)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:45
+msgid "Screens up to this width use the mobile settings of each popup."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:46
+msgid "Tablet up to (px)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:46
+msgid "Wider screens use the desktop settings."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:47
+msgid "Popups covering the page at the same time"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:47
+msgid ""
+"Centred popups and full-screen windows: if one is already open, the others "
+"wait. Bars, slide-ins and tabs are not counted. Recommended: 1."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:48
+msgid "Stacking level (z-index)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:48
+msgid "Raise it only if a sticky header or a chat widget covers the popups."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:51
+msgid "Statistics and data"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:52
+msgid ""
+"Count views, closes and conversions (anonymous daily totals, no personal "
+"data)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:53
+msgid "Keep statistics for (days)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:53
+msgid "Older data is deleted automatically every day."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:54
+msgid "Uninstall"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:54
+msgid "Keep popups, statistics and settings when the plugin is deleted"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:57
+msgid "Integrations"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:58
+msgid ""
+"forms inside popups, with leads and anti-spam, and popups shown or hidden "
+"according to the forms the visitor has already filled in."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:63
+msgid ""
+"popup views and conversions sent to GA4 and the other tags (events grs-"
+"pop:view and grs-pop:convert)."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:64
+msgid "popup texts translatable with String Translation."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:67
+msgid "Save settings"
+msgstr ""
+
+#. translators: %s: version number.
+#: includes/admin/class-settings-page.php:104
+#, php-format
+msgid "Update to %s"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:106
+msgid "Not detected"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:33
+msgid "You are not allowed to view statistics."
+msgstr ""
+
+#: includes/admin/class-stats-page.php:46
+msgid ""
+"Statistics are turned off in the settings: no new data is being collected."
+msgstr ""
+
+#: includes/admin/class-stats-page.php:66
+msgid "Period"
+msgstr ""
+
+#. translators: %d: number of days.
+#: includes/admin/class-stats-page.php:78
+#, php-format
+msgid "Last %d day"
+msgid_plural "Last %d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-stats-page.php:117
+msgid "Results by popup"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:124
+#: includes/admin/class-stats-page.php:201
+#: includes/admin/class-stats-page.php:217
+#: includes/admin/class-stats-page.php:231
+msgid "Views"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:125
+#: includes/admin/class-stats-page.php:202
+#: includes/admin/class-stats-page.php:217
+#: includes/admin/class-stats-page.php:231
+msgid "Conversions"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:126
+#: includes/admin/class-stats-page.php:203
+msgid "Conversion rate"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:127
+#: includes/admin/class-stats-page.php:204
+msgid "Button clicks"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:128
+#: includes/admin/class-stats-page.php:205
+#: includes/admin/class-stats-page.php:231
+msgid "Closed"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:164
+msgid "Total"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:170
+msgid ""
+"A conversion is a form sent from the popup, a click on a button marked as a "
+"conversion or a copied coupon code. Visits by users who can manage popups "
+"are not counted."
+msgstr ""
+
+#: includes/admin/class-stats-page.php:185 assets/js/builder.js:3
+msgid "All popups"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:213
+msgid "Day by day"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:215
+msgid "No data in this period."
+msgstr ""
+
+#: includes/admin/class-stats-page.php:217
+msgid "Day"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:217
+msgid "Views and conversions"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:217
+#: includes/admin/class-stats-page.php:231
+msgid "Rate"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:230
+msgid "By device"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:231
+msgid "Device"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:251
+msgid "Reset all statistics of this popup?"
+msgstr ""
+
+#: includes/admin/class-stats-page.php:251
+msgid "Reset statistics"
+msgstr ""
+
+#: includes/class-activator.php:37
+msgid ""
+"GRS Pop cannot be network activated. Activate it on each site individually."
+msgstr ""
+
+#: includes/class-activator.php:38
+msgid "Activation not allowed"
+msgstr ""
+
+#: includes/class-maintenance.php:408
+msgid "Maintenance mode active"
+msgstr ""
+
+#: includes/class-maintenance.php:408
+msgid "Coming soon mode active"
+msgstr ""
+
+#: includes/class-maintenance.php:415
+msgid "Visitors see the courtesy page. Click to change."
+msgstr ""
+
+#: includes/class-maintenance.php:732
+msgid "We are working on the site"
+msgstr ""
+
+#: includes/class-maintenance.php:736
+msgid "We will be back online shortly. Thank you for your patience."
+msgstr ""
+
+#: includes/class-maintenance.php:736
+msgid "Our new website is on its way. Stay tuned!"
+msgstr ""
+
+#: includes/class-maintenance.php:753 includes/class-renderer.php:366
+#: assets/js/builder.js:1
+msgid "Days"
+msgstr ""
+
+#: includes/class-maintenance.php:753 includes/class-renderer.php:367
+#: assets/js/builder.js:1
+msgid "Hours"
+msgstr ""
+
+#: includes/class-maintenance.php:753 includes/class-renderer.php:368
+#: assets/js/builder.js:1
+msgid "Minutes"
+msgstr ""
+
+#: includes/class-maintenance.php:753 includes/class-renderer.php:369
+#: assets/js/builder.js:1
+msgid "Seconds"
+msgstr ""
+
+#: includes/class-presets.php:34
+msgid "Newsletter & leads"
+msgstr ""
+
+#: includes/class-presets.php:35
+msgid "Discounts & sales"
+msgstr ""
+
+#: includes/class-presets.php:36
+msgid "Announcements"
+msgstr ""
+
+#: includes/class-presets.php:37
+msgid "Contact"
+msgstr ""
+
+#: includes/class-presets.php:171 includes/class-renderer.php:395
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "No thanks"
+msgstr ""
+
+#: includes/class-presets.php:178
+msgid "Newsletter: classic"
+msgstr ""
+
+#: includes/class-presets.php:186
+msgid "Join our newsletter"
+msgstr ""
+
+#: includes/class-presets.php:190
+msgid ""
+"One useful email a month: news, tips and offers reserved for subscribers. No"
+" spam, unsubscribe anytime."
+msgstr ""
+
+#: includes/class-presets.php:210
+msgid "Newsletter with image"
+msgstr ""
+
+#: includes/class-presets.php:223
+msgid "NEWSLETTER"
+msgstr ""
+
+#: includes/class-presets.php:227
+msgid "Get our best ideas in your inbox"
+msgstr ""
+
+#: includes/class-presets.php:228
+msgid ""
+"Practical guides and early access to new products. Join thousands of "
+"readers."
+msgstr ""
+
+#: includes/class-presets.php:237
+msgid "Welcome discount"
+msgstr ""
+
+#: includes/class-presets.php:245
+msgid "WELCOME"
+msgstr ""
+
+#: includes/class-presets.php:252
+msgid "Get 10% off your first order"
+msgstr ""
+
+#: includes/class-presets.php:256
+msgid "Sign up and receive your discount code by email."
+msgstr ""
+
+#: includes/class-presets.php:266 assets/js/builder.js:1
+msgid "Coupon code"
+msgstr ""
+
+#: includes/class-presets.php:271
+msgid "A gift for you"
+msgstr ""
+
+#: includes/class-presets.php:272
+msgid "Use this code at checkout to save 15% on your order."
+msgstr ""
+
+#: includes/class-presets.php:277 includes/class-presets.php:800
+msgid "Shop now"
+msgstr ""
+
+#: includes/class-presets.php:289
+msgid "Free guide (lead magnet)"
+msgstr ""
+
+#: includes/class-presets.php:297
+msgid "Download the free guide"
+msgstr ""
+
+#: includes/class-presets.php:302
+msgid "The 7 mistakes to avoid"
+msgstr ""
+
+#: includes/class-presets.php:303
+msgid "A ready-to-use checklist"
+msgstr ""
+
+#: includes/class-presets.php:304
+msgid "Real examples you can copy"
+msgstr ""
+
+#: includes/class-presets.php:323
+msgid "Exit intent: wait!"
+msgstr ""
+
+#: includes/class-presets.php:331
+msgid "Wait, before you go…"
+msgstr ""
+
+#: includes/class-presets.php:335
+msgid "Free shipping on your first order if you complete it today."
+msgstr ""
+
+#: includes/class-presets.php:339
+msgid "Continue shopping"
+msgstr ""
+
+#: includes/class-presets.php:343
+msgid "Maybe later"
+msgstr ""
+
+#: includes/class-presets.php:358
+msgid "Free consultation"
+msgstr ""
+
+#: includes/class-presets.php:363
+msgid "Book a free 20-minute call"
+msgstr ""
+
+#: includes/class-presets.php:364
+msgid ""
+"Tell us about your project: we will answer your questions and suggest the "
+"next steps, with no obligation."
+msgstr ""
+
+#: includes/class-presets.php:368
+msgid "Choose a date"
+msgstr ""
+
+#: includes/class-presets.php:376
+msgid "Call us"
+msgstr ""
+
+#: includes/class-presets.php:395
+msgid "Event or webinar"
+msgstr ""
+
+#: includes/class-presets.php:403
+msgid "LIVE WEBINAR"
+msgstr ""
+
+#: includes/class-presets.php:407
+msgid "How to double your results in 90 days"
+msgstr ""
+
+#: includes/class-presets.php:418
+msgid "Save my seat"
+msgstr ""
+
+#: includes/class-presets.php:430
+msgid "Flash sale"
+msgstr ""
+
+#: includes/class-presets.php:438
+msgid "Flash sale: up to 40% off"
+msgstr ""
+
+#: includes/class-presets.php:442
+msgid "Only for a few hours, while stocks last."
+msgstr ""
+
+#: includes/class-presets.php:454
+msgid "See the offers"
+msgstr ""
+
+#: includes/class-presets.php:465
+msgid "News announcement"
+msgstr ""
+
+#: includes/class-presets.php:476
+msgid "NEW"
+msgstr ""
+
+#: includes/class-presets.php:480
+msgid "Our new collection is here"
+msgstr ""
+
+#: includes/class-presets.php:481
+msgid "Discover the new products designed with you in mind."
+msgstr ""
+
+#: includes/class-presets.php:485
+msgid "Discover more"
+msgstr ""
+
+#: includes/class-presets.php:497
+msgid "Questions? Contact us"
+msgstr ""
+
+#: includes/class-presets.php:502
+msgid "Need help choosing?"
+msgstr ""
+
+#: includes/class-presets.php:503
+msgid ""
+"Write to us: a real person will answer within a few minutes during office "
+"hours."
+msgstr ""
+
+#: includes/class-presets.php:507
+msgid "Chat on WhatsApp"
+msgstr ""
+
+#: includes/class-presets.php:516
+msgid "Send an email"
+msgstr ""
+
+#: includes/class-presets.php:536
+msgid "Promo with background image"
+msgstr ""
+
+#: includes/class-presets.php:555
+msgid "The season sale has started"
+msgstr ""
+
+#: includes/class-presets.php:559
+msgid "Hundreds of products at special prices, for a limited time."
+msgstr ""
+
+#: includes/class-presets.php:563 includes/class-presets.php:845
+msgid "Shop the sale"
+msgstr ""
+
+#: includes/class-presets.php:577
+msgid "Slide-in: newsletter"
+msgstr ""
+
+#: includes/class-presets.php:590
+msgid "Enjoying this article?"
+msgstr ""
+
+#: includes/class-presets.php:597
+msgid "Get the next ones by email."
+msgstr ""
+
+#: includes/class-presets.php:616
+msgid "Slide-in: WhatsApp chat"
+msgstr ""
+
+#: includes/class-presets.php:631
+msgid "Hi! How can we help?"
+msgstr ""
+
+#: includes/class-presets.php:638
+msgid "We usually reply within a few minutes."
+msgstr ""
+
+#: includes/class-presets.php:645
+msgid "Start the chat"
+msgstr ""
+
+#: includes/class-presets.php:664
+msgid "Slide-in: read next"
+msgstr ""
+
+#: includes/class-presets.php:677
+msgid "Read next"
+msgstr ""
+
+#: includes/class-presets.php:684
+msgid "The complete guide for beginners"
+msgstr ""
+
+#: includes/class-presets.php:692
+msgid "Read the guide"
+msgstr ""
+
+#: includes/class-presets.php:713
+msgid "Slide-in: discount code"
+msgstr ""
+
+#: includes/class-presets.php:725
+msgid "10% off today"
+msgstr ""
+
+#: includes/class-presets.php:737
+msgid "Slide-in: request a callback"
+msgstr ""
+
+#: includes/class-presets.php:750
+msgid "Shall we call you back?"
+msgstr ""
+
+#: includes/class-presets.php:757
+msgid "Leave your number: we will call you within one business day."
+msgstr ""
+
+#: includes/class-presets.php:785
+msgid "Bar: free shipping"
+msgstr ""
+
+#: includes/class-presets.php:793
+msgid "Free shipping"
+msgstr ""
+
+#: includes/class-presets.php:793
+msgid "on orders over €50"
+msgstr ""
+
+#: includes/class-presets.php:822
+msgid "Bar: sale countdown"
+msgstr ""
+
+#: includes/class-presets.php:830
+msgid "The sale ends in"
+msgstr ""
+
+#: includes/class-presets.php:867
+msgid "Bar: announcement"
+msgstr ""
+
+#: includes/class-presets.php:875
+msgid "Our offices will be closed from 10 to 20 August."
+msgstr ""
+
+#: includes/class-presets.php:882
+msgid "Details"
+msgstr ""
+
+#: includes/class-presets.php:906
+msgid "Bar: coupon code"
+msgstr ""
+
+#: includes/class-presets.php:914
+msgid "Use this code for 10% off:"
+msgstr ""
+
+#: includes/class-presets.php:932
+msgid "Bar: call us"
+msgstr ""
+
+#: includes/class-presets.php:940
+msgid "Do you need a quote? Talk to an expert."
+msgstr ""
+
+#: includes/class-presets.php:947
+msgid "Call now"
+msgstr ""
+
+#: includes/class-presets.php:972
+msgid "Welcome mat"
+msgstr ""
+
+#: includes/class-presets.php:1000
+msgid "Welcome! Start here"
+msgstr ""
+
+#: includes/class-presets.php:1008
+msgid ""
+"Discover in two minutes what we can do for you and how other customers got "
+"results."
+msgstr ""
+
+#: includes/class-presets.php:1015
+msgid "Find out how"
+msgstr ""
+
+#: includes/class-presets.php:1021 includes/class-presets.php:1083
+msgid "Continue to the site"
+msgstr ""
+
+#: includes/class-presets.php:1036
+msgid "Full screen: launch countdown"
+msgstr ""
+
+#: includes/class-presets.php:1064
+msgid "COMING SOON"
+msgstr ""
+
+#: includes/class-presets.php:1071
+msgid "Something new is about to arrive"
+msgstr ""
+
+#: includes/class-presets.php:1097
+msgid "Full screen: lead form"
+msgstr ""
+
+#: includes/class-presets.php:1128
+msgid "Get a free quote in 24 hours"
+msgstr ""
+
+#: includes/class-presets.php:1132
+msgid ""
+"Tell us what you need: an expert will contact you with a tailored proposal."
+msgstr ""
+
+#: includes/class-presets.php:1150
+msgid "Floating tab: contact form"
+msgstr ""
+
+#: includes/class-presets.php:1153
+msgid "Contact us"
+msgstr ""
+
+#: includes/class-presets.php:1164
+msgid "Write to us"
+msgstr ""
+
+#: includes/class-presets.php:1186
+msgid "Floating tab: offer"
+msgstr ""
+
+#: includes/class-presets.php:1189
+msgid "10% off"
+msgstr ""
+
+#: includes/class-presets.php:1199
+msgid "Your discount code"
+msgstr ""
+
+#: includes/class-presets.php:1225
+msgid "Inline: newsletter box"
+msgstr ""
+
+#: includes/class-presets.php:1236
+msgid "Did you like this article?"
+msgstr ""
+
+#: includes/class-presets.php:1240
+msgid "Subscribe to receive the next ones directly by email."
+msgstr ""
+
+#: includes/class-presets.php:1250
+msgid "Inline: call to action"
+msgstr ""
+
+#: includes/class-presets.php:1262
+msgid "Do you want results like these?"
+msgstr ""
+
+#: includes/class-presets.php:1266
+msgid "Let's talk about your project in a free call."
+msgstr ""
+
+#: includes/class-presets.php:1270
+msgid "Book a call"
+msgstr ""
+
+#: includes/class-presets.php:1284
+msgid "Inline: free resource"
+msgstr ""
+
+#: includes/class-presets.php:1303
+msgid "Free checklist"
+msgstr ""
+
+#: includes/class-presets.php:1311
+msgid "Every step in order"
+msgstr ""
+
+#: includes/class-presets.php:1312
+msgid "Printable PDF"
+msgstr ""
+
+#: includes/class-presets.php:1319
+msgid "Download it"
+msgstr ""
+
+#: includes/class-presets.php:1333
+msgid "Blank popup"
+msgstr ""
+
+#: includes/class-presets.php:1336
+msgid "Your title"
+msgstr ""
+
+#: includes/class-presets.php:1337 assets/js/builder.js:3
+msgid "Write your message here."
+msgstr ""
+
+#: includes/class-presets.php:1341 assets/js/builder.js:1
+#: assets/js/builder.js:3
+msgid "Button"
+msgstr ""
+
+#: includes/class-privacy.php:26
+msgid ""
+"GRS Pop does not collect personal data and does not load resources from "
+"third parties."
+msgstr ""
+
+#: includes/class-privacy.php:27
+msgid ""
+"Our popups store some technical information in your browser (localStorage "
+"and sessionStorage) to avoid showing you the same message too often: the "
+"date of the first visit, the number of pages viewed, the time of the last "
+"activity on the site and, for each popup, when it was shown, closed or used."
+" This information is not sent to us and does not identify you. You can "
+"delete it by clearing your browser data."
+msgstr ""
+
+#: includes/class-privacy.php:28
+msgid ""
+"If some popups are shown only to those who have (or have not) already filled"
+" in one of our forms, the browser also remembers which forms were sent and "
+"when, without the data entered."
+msgstr ""
+
+#: includes/class-privacy.php:29
+msgid ""
+"While the site is in \"coming soon\" or maintenance mode, whoever opens the "
+"preview link we send receives a technical cookie (grs_pop_access) that lets "
+"them see the site for a few days. It contains no personal data."
+msgstr ""
+
+#: includes/class-privacy.php:30
+msgid ""
+"To measure how our popups perform we count, in aggregate form per day and "
+"per device type, how many times they are shown, closed or used. We do not "
+"store your IP address or other identifiers."
+msgstr ""
+
+#: includes/class-privacy.php:31
+msgid ""
+"If a popup contains a form, the data you enter is processed as described in "
+"the section about contact forms."
+msgstr ""
+
+#: includes/class-renderer.php:159
+msgid "Close"
+msgstr ""
+
+#: includes/class-renderer.php:209 assets/js/builder.js:3
+msgid "Reopen"
+msgstr ""
+
+#. translators: %s: text of the tab that reopens the popup.
+#: includes/class-renderer.php:224
+#, php-format
+msgid "Reopen: %s"
+msgstr ""
+
+#: includes/class-renderer.php:350 assets/js/builder.js:1
+msgid "Copied!"
+msgstr ""
+
+#: includes/class-rest.php:244
+msgid "Untitled popup"
+msgstr ""
+
+#: includes/class-rest.php:298
+msgid "Unknown taxonomy."
+msgstr ""
+
+#: includes/class-settings.php:61
+msgid "Brand"
+msgstr ""
+
+#: includes/class-settings.php:62
+msgid "Text on brand"
+msgstr ""
+
+#: includes/class-settings.php:63
+msgid "Dark text"
+msgstr ""
+
+#: includes/class-settings.php:64 assets/js/builder.js:3
+msgid "Background"
+msgstr ""
+
+#: includes/class-settings.php:65
+msgid "Secondary text"
+msgstr ""
+
+#: includes/class-settings.php:66
+msgid "Soft background"
+msgstr ""
+
+#: assets/js/block.js:1
+msgid ""
+"No active inline popups. Create one in GRS DEVs → Pop choosing \"Inside the "
+"content\" in the Format panel."
+msgstr ""
+
+#: assets/js/block.js:1
+msgid "Inline popup"
+msgstr ""
+
+#: assets/js/block.js:1
+msgid "Choose…"
+msgstr ""
+
+#: assets/js/block.js:1
+msgid "The box is shown here on the site, with its design and rules."
+msgstr ""
+
+#: assets/js/block.js:1
+msgid "GRS Pop inline"
+msgstr ""
+
+#: assets/js/block.js:1
+msgid ""
+"Shows a GRS Pop inline box (newsletter, offer, call to action) inside the "
+"content."
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Set the end date of the countdown."
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Send"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Choose a GRS Forms form in the section settings."
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Install and activate GRS Forms to add a form here."
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Shortcode"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Add content from the Content panel."
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Not shown on this device"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Centre"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Top"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Bottom (full width)"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Bottom right"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Bottom left"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Top right"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Top left"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Right side"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Left side"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Form (GRS Forms)"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "List"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Spacer"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "\"No thanks\" link"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "No icon"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Arrow"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "WhatsApp"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Gift"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Download"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Calendar"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Cart"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Home page"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Blog page"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "All items of a type"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Specific pages or posts"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Category, tag or other term"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Archive of a type"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Search results"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Page not found (404)"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Address contains / starts with / equals"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Sun"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Mon"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Tue"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Wed"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Thu"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Fri"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Sat"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Templates"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid ""
+"Every template is already optimised for mobile. You can change texts, "
+"colours, format and rules afterwards."
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Back to the editor"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Goal"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "All goals"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "All formats"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "mobile:"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "No templates with these filters."
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Custom colour"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Default"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Choose an image"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Replace"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Search…"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Search"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "No results"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Small"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Medium"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Large"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Popup default"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Left"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Right"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "No form selected"
+msgstr ""
+
+#: assets/js/builder.js:1
+#, js-format
+msgid "%d minutes per visitor"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "You can use <strong>, <em> and <br>."
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Size"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "HTML tag"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Paragraph"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "H2 is best for accessibility; use a paragraph for small labels."
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Colour"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "You can use <strong>, <em>, <a href=\"…\"> and line breaks."
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Label"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "On click"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Open a link"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Close the popup"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Link"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid ""
+"Also tel:, mailto:, https://wa.me/… or #grs-pop-ID to open another popup."
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Count a click as a conversion"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Primary"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Secondary"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Outline"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Text link"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Icon"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Full width"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Loading forms…"
+msgstr ""
+
+#: assets/js/builder.js:1
+#, js-format
+msgid "Form chosen: #%d."
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Choose a form…"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid ""
+"Leads, anti-spam, notifications and conversion tracking are handled by GRS "
+"Forms. The form style follows the form settings."
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "No forms yet: create one in GRS DEVs → Forms, then choose it here."
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Open GRS Forms"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid ""
+"GRS Forms is not active. Install and activate it to collect leads from "
+"popups."
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Code"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Button label"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Text after copying"
+msgstr ""
+
+#: assets/js/builder.js:1 assets/js/builder.js:3
+msgid "Type"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Until a date"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Per visitor"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Ends on (site time zone)"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Duration from the first view"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "min"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "When it ends"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Hide the countdown"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Hide the whole popup"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Show 00:00"
+msgstr ""
+
+#: assets/js/builder.js:1
+msgid "Items (one per line)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Bullet"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Height"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Show a line"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"Closes the popup. Keep it neutral and respectful: avoid guilt-tripping "
+"wording."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"One shortcode from another plugin (for example a map or a booking widget)."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Alignment"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "New title"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Find out more"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "First benefit"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Second benefit"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Move up"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Move down"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Add"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Image and layout"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Image"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Layout"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Hidden"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Alternative text"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"Describe the image for screen readers. Leave empty if it is only decorative."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Show the image on small screens"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Darken the image"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Size and spacing"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Maximum width"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Inner spacing"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Rounded corners"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Text size"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Text alignment"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Colours"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"Round swatches are your palette (GRS DEVs → Pop → Settings): change it once "
+"and every popup follows."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Button text"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Secondary elements"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Close icon"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Border, shadow and background"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Border"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Border colour"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Shadow"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "None"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Soft"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Strong"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Page overlay"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Overlay opacity"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Animation"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Entrance"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Zoom"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Slide"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Fade"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"Visitors who ask their device for reduced motion always see the popup "
+"without animation."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Where"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Over the page"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Inside the content"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Position in the content"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Insert"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Only where I place the shortcode or block"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "After a paragraph"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"Automatic positions apply to the single pages and posts chosen in Audience."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "After paragraph number"
+msgstr ""
+
+#: assets/js/builder.js:3
+#, js-format
+msgid "Shortcode: [grs_pop id=\"%d\"] or the \"GRS Pop inline\" block."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Save the popup to get its shortcode."
+msgstr ""
+
+#: assets/js/builder.js:3
+#, js-format
+msgid "Show on %s"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Position"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Use the same settings on tablet and mobile"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"On mobile this popup covers the page and opens automatically. Google may "
+"penalise pages that hide the content to visitors coming from search: for "
+"mobile prefer a slide-in from the bottom or a bar, or open it on exit, after"
+" scrolling or on click."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Bar behaviour"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Pushes the page down"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Fixed header"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Move the fixed elements of the site down (header, menu)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"While the bar at the top is open, the page and the fixed header slide down "
+"by the height of the bar, so the bar does not cover logo and menu."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Find them automatically"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"Looks for fixed or sticky elements at the top of the page when the bar "
+"opens."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Elements to move (CSS selectors)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"Separated by commas. Recommended when the automatic search misses the header"
+" or the mobile menu panel."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"Check it on the site: the preview here does not include the header of the "
+"theme."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Tab label"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"Inline boxes are part of the page: they have no triggers. You can still use "
+"Audience and Frequency."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Show a close button"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "The popup opens at the first trigger that happens."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Automatic"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "After a few seconds"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Delay"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "After scrolling the page"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Page scrolled"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "When the visitor is about to leave (exit intent)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"On computers: when the mouse moves towards the tabs or the address bar."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "On touch screens"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Open on a quick scroll back up"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Do not open"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "After a period of inactivity"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Inactive for"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "When an element becomes visible"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "CSS selector"
+msgstr ""
+
+#: assets/js/builder.js:3
+#, js-format
+msgid ""
+"Always available: any link to %1$s or element with the class %2$s opens this"
+" popup."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Also open when clicking (CSS selector)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "No automatic trigger: this popup opens only on click."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Closing"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Close button (×)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Close by clicking outside"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Close with the Esc key"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "At least one way to close is required: the close button will be shown."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "After a form is sent"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Close the popup after a few seconds"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Keep it open"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Close after"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Close automatically after (0 = never)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Reopen after closing"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Show a tab to reopen it after closing"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"For bars and slide-ins. The tab stays available even when Frequency stops "
+"the popup from opening by itself; it disappears after a conversion and when "
+"the schedule ends."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Tab text"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Automatic (based on the format)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Distance from the top"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"Used only when no fixed header is found: otherwise the tab hangs right below"
+" the header."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"With a fixed header, set its height here (or turn on \"Move the fixed "
+"elements of the site down\" in Format: the tab then hangs below the header "
+"by itself)."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Align to the site content (width, 0 = window edge)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"On wide screens the tab lines up with the edge of the content, for example "
+"1200."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Tab background"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Tab text colour"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Empty colours use the background and text of the popup."
+msgstr ""
+
+#: assets/js/builder.js:3
+#, js-format
+msgid ""
+"Low contrast between background and text (%s:1): at least 4.5:1 is "
+"recommended for readability."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Example"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Remove rule"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Taxonomy"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "contains"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "starts with"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "equals"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Add rule"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Forms already filled in"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"GRS Forms is not active: this rule is ignored and the popup is shown as if "
+"it were not set."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Show to"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Everyone"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Who has not filled in"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Who has filled in"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Forms"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "At least one of these forms"
+msgstr ""
+
+#: assets/js/builder.js:3
+#, js-format
+msgid "Form #%d (not found)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Filled in during the last N days"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "0 = at any time."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Choose at least one form, otherwise the rule is not applied."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"The visitor's browser remembers which GRS Forms forms were sent and when (no"
+" data entered in the form), from the moment a popup with this rule is "
+"active. If the browser does not keep data, the popup is treated as if no "
+"form had been filled in."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Pages"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Show on"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "The whole site"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Only on…"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Never show on"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Visitors"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Only logged out"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Only logged in"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Roles"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "No role selected = all logged-in users."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Visit"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "All"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "First visit"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Returning"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "After at least N pages viewed"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "0 = from the first page."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Coming from"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Anywhere"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Search engines"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Social networks"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Any other site"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Direct visits"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "A site whose address contains…"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "The source of the first page of the visit."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Link parameters (UTM and others)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "any value"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Add parameter"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Checked on the landing page and kept for the rest of the visit."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Languages"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Languages (none = all)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Schedule"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "From"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "To"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Days of the week"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "From hour"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "To hour"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"Site time zone. Leave empty for no limits. Checked in the browser, so it "
+"works with page caching."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "How often"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Show"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Once every few days"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Once per visit"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Once per browser session (until the tab is closed)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Only once"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "On every page"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Every"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "days"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "A visit ends after"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "minutes without activity"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"As in Google Analytics: 30 minutes. Activity is measured on the pages where "
+"GRS Pop is loaded."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"The browser session lasts until the tab is closed: it survives reloads and, "
+"on smartphones, it can last for days. For a popup that comes back at the "
+"next visit choose \"Once per visit\"."
+msgstr ""
+
+#: assets/js/builder.js:3
+#, js-format
+msgid ""
+"When the visitor closes it, it stays hidden for %d days (setting below): set"
+" 0 to show it again at the next visit."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "After it is closed, hide it for"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "0 = only until the end of the visit."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "0 = only until the end of the browser session."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "After a conversion"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Never show it again"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Hide it for some days"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Keep showing it"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Hide for"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Maximum views per visitor (0 = no limit)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"Remembered only in the visitor's browser, with technical data and no "
+"personal information."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Advanced"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Priority"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid ""
+"When several popups could open on the same page, the one with the highest "
+"priority goes first."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Extra CSS classes"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Saved. The popup is active."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Saved as inactive."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Save failed."
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Replace the current content and design with this template?"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Content"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Design"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Triggers"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Audience"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Frequency"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Popup name (only for you)"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Popup name"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Save first to see the latest changes"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Saving…"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Saved"
+msgstr ""
+
+#: assets/js/builder.js:3
+#, js-format
+msgid "ID %d"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Dismiss"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Preview device"
+msgstr ""
+
+#: assets/js/builder.js:3
+msgid "Click an element of the preview to edit it."
+msgstr ""
+
+#: blocks/inline/block.json
+msgctxt "block title"
+msgid "GRS Pop inline"
+msgstr ""
+
+#: blocks/inline/block.json
+msgctxt "block description"
+msgid ""
+"Shows a GRS Pop inline box (newsletter, offer, call to action) inside the "
+"content."
+msgstr ""
+
+#: blocks/inline/block.json
+msgctxt "block keyword"
+msgid "popup"
+msgstr ""
+
+#: blocks/inline/block.json
+msgctxt "block keyword"
+msgid "cta"
+msgstr ""
+
+#: blocks/inline/block.json
+msgctxt "block keyword"
+msgid "newsletter"
+msgstr ""
+
+#: blocks/inline/block.json
+msgctxt "block keyword"
+msgid "box"
+msgstr ""

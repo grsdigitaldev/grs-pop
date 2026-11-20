@@ -1,0 +1,296 @@
+/**
+ * GRS Pop - pagine della bacheca (componenti con prefisso grs-pop-*, sulle variabili condivise GRS).
+ *
+ * @package GRSDigital\Pop
+ */
+
+.grs-pop-admin .grs-pop-list__head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	flex-wrap: wrap;
+	margin-bottom: 8px;
+}
+.grs-pop-admin .grs-pop-list__head h2 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 15px;
+}
+.grs-pop-admin .grs-pop-list .search-box {
+	margin: 8px 0;
+}
+.grs-pop-admin .grs-pop-id {
+	color: var(--grs-muted, #626a75);
+	font-size: 12px;
+}
+.grs-pop-admin .grs-pop-chip {
+	display: inline-block;
+	margin: 0 4px 4px 0;
+	padding: 2px 8px;
+	border-radius: 999px;
+	background: var(--grs-surface-soft, #f7f8fa);
+	border: 1px solid var(--grs-line, #e2e5ea);
+	font-size: 12px;
+	white-space: nowrap;
+}
+.grs-pop-admin .grs-pop-chip--off {
+	opacity: 0.55;
+	text-decoration: line-through;
+}
+.grs-pop-admin .grs-pop-results {
+	text-decoration: none;
+	white-space: nowrap;
+}
+.grs-pop-admin .grs-pop-empty {
+	padding: 28px 8px;
+	text-align: center;
+}
+.grs-pop-admin .grs-pop-empty p {
+	max-width: 520px;
+	margin: 8px auto;
+}
+.grs-pop-admin .grs-pop-help ul {
+	margin: 10px 0 0 18px;
+	list-style: disc;
+}
+.grs-pop-admin .grs-pop-help li {
+	margin-bottom: 6px;
+}
+.grs-pop-admin .column-format { width: 30%; }
+.grs-pop-admin .column-status { width: 100px; }
+.grs-pop-admin .column-results { width: 22%; }
+
+/* Statistiche */
+.grs-pop-admin .grs-pop-periods {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin: 0 0 16px;
+}
+.grs-pop-admin .grs-pop-stats .num,
+.grs-pop-admin .grs-pop-days .num,
+.grs-pop-admin .grs-pop-devices .num {
+	text-align: right;
+	white-space: nowrap;
+}
+.grs-pop-admin .grs-pop-kpis {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+	gap: 12px;
+	margin: 12px 0 8px;
+}
+.grs-pop-admin .grs-pop-kpi {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	padding: 14px 16px;
+	border: 1px solid var(--grs-line, #e2e5ea);
+	border-radius: var(--grs-radius-sm, 8px);
+	background: var(--grs-surface-soft, #f7f8fa);
+}
+.grs-pop-admin .grs-pop-kpi__value {
+	font-size: 22px;
+	font-weight: 700;
+	color: var(--grs-ink, #15181d);
+	font-variant-numeric: tabular-nums;
+}
+.grs-pop-admin .grs-pop-kpi__label {
+	color: var(--grs-muted, #626a75);
+	font-size: 12px;
+}
+.grs-pop-admin .grs-pop-bar {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-width: 120px;
+	height: 12px;
+	border-radius: 6px;
+	background: var(--grs-surface-soft, #f7f8fa);
+	overflow: hidden;
+}
+.grs-pop-admin .grs-pop-bar__v,
+.grs-pop-admin .grs-pop-bar__c {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	border-radius: 6px;
+}
+.grs-pop-admin .grs-pop-bar__v { background: #c9ced6; }
+.grs-pop-admin .grs-pop-bar__c { background: var(--grs-ok, #0a7a45); }
+.grs-pop-admin .grs-pop-reset {
+	margin-top: 18px;
+}
+
+/* Impostazioni */
+.grs-pop-admin .grs-pop-palette {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: 10px;
+	margin-top: 12px;
+}
+.grs-pop-admin .grs-pop-swatch {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 8px 10px;
+	border: 1px solid var(--grs-line, #e2e5ea);
+	border-radius: var(--grs-radius-sm, 8px);
+	cursor: pointer;
+}
+.grs-pop-admin .grs-pop-swatch input[type="color"] {
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	border: 1px solid var(--grs-line-strong, #c9ced6);
+	border-radius: 50%;
+	background: none;
+	cursor: pointer;
+}
+.grs-pop-admin .grs-pop-swatch span {
+	display: flex;
+	flex-direction: column;
+	font-weight: 600;
+}
+.grs-pop-admin .grs-pop-swatch code {
+	margin-top: 2px;
+	padding: 0;
+	background: none;
+	font-weight: 400;
+	color: var(--grs-muted, #626a75);
+}
+.grs-pop-admin .grs-pop-integrations {
+	margin: 8px 0 0;
+}
+.grs-pop-admin .grs-pop-integrations li {
+	margin-bottom: 8px;
+}
+
+@media screen and (max-width: 782px) {
+	.grs-pop-admin .column-format,
+	.grs-pop-admin .column-triggers {
+		display: none;
+	}
+}
+
+/* Scheda "Coming soon" */
+.grs-pop-ms-modes {
+	display: grid;
+	gap: 10px;
+	margin: 6px 0 12px;
+}
+.grs-pop-ms-mode {
+	display: block;
+	padding: 12px 14px;
+	border: 1px solid var(--grs-line, #e2e5ea);
+	border-radius: var(--grs-radius-sm, 8px);
+}
+.grs-pop-ms-mode .description {
+	display: block;
+	margin: 2px 0 0 24px;
+}
+.grs-pop-ms-mode:has(input:checked) {
+	border-color: var(--grs-ink, #15181d);
+	box-shadow: 0 0 0 1px var(--grs-ink, #15181d);
+}
+.grs-pop-ms-presets {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+	gap: 10px;
+	margin-top: 10px;
+}
+.grs-pop-ms-preset {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	padding: 14px;
+	text-align: left;
+	font: inherit;
+	color: inherit;
+	background: var(--grs-surface, #fff);
+	border: 1px solid var(--grs-line, #e2e5ea);
+	border-radius: var(--grs-radius-sm, 8px);
+	cursor: pointer;
+}
+.grs-pop-ms-preset:hover,
+.grs-pop-ms-preset:focus-visible {
+	border-color: var(--grs-ink, #15181d);
+	box-shadow: 0 0 0 1px var(--grs-ink, #15181d);
+	outline: none;
+}
+.grs-pop-ms-preset__mode {
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .04em;
+	text-transform: uppercase;
+	color: var(--grs-muted, #646970);
+}
+.grs-pop-ms-preset__name {
+	font-size: 14px;
+}
+.grs-pop-ms-preset__desc {
+	font-size: 12px;
+	line-height: 1.45;
+	color: var(--grs-muted, #646970);
+}
+.grs-ui .grs-pop-ms-check {
+	display: inline-block;
+	margin: 0 22px 8px 0;
+}
+.grs-pop-ms-link {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	align-items: center;
+}
+.grs-pop-ms-link input {
+	flex: 1 1 320px;
+}
+.grs-pop-ms-media {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+	margin: 8px 0;
+}
+.grs-pop-ms-media__preview img {
+	display: block;
+	max-height: 60px;
+	max-width: 200px;
+	padding: 4px;
+	border: 1px solid var(--grs-line, #e2e5ea);
+	border-radius: 6px;
+	background: #fff;
+}
+.grs-pop-ms-social label {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 0 0 8px;
+}
+.grs-pop-ms-social label span {
+	flex: 0 0 90px;
+}
+.grs-pop-ms-preview__bar .is-active {
+	background: var(--grs-ink, #15181d);
+	border-color: var(--grs-ink, #15181d);
+	color: #fff;
+}
+.grs-pop-ms-preview__frame {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	border: 1px solid var(--grs-line, #e2e5ea);
+	border-radius: 12px;
+	overflow: hidden;
+	transition: width 0.2s ease;
+}
+.grs-pop-ms-preview__frame iframe {
+	display: block;
+	width: 100%;
+	height: 720px;
+	border: 0;
+	background: #fff;
+}

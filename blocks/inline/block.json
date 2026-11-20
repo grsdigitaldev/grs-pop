@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "grs-pop/inline",
+	"title": "GRS Pop inline",
+	"category": "widgets",
+	"icon": "megaphone",
+	"description": "Shows a GRS Pop inline box (newsletter, offer, call to action) inside the content.",
+	"keywords": [ "popup", "cta", "newsletter", "box" ],
+	"textdomain": "grs-pop",
+	"attributes": {
+		"popupId": {
+			"type": "integer",
+			"default": 0
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	}
+}

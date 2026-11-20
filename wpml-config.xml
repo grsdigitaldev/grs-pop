@@ -1,0 +1,9 @@
+<wpml-config>
+	<!-- I popup non si duplicano per lingua: i testi si traducono con String Translation (contesto "GRS Pop"). -->
+	<custom-types>
+		<custom-type translate="0">grs_popup</custom-type>
+	</custom-types>
+	<custom-fields>
+		<custom-field action="ignore">_grs_pop_config</custom-field>
+	</custom-fields>
+</wpml-config>
